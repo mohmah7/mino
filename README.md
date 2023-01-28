@@ -1,0 +1,2 @@
+# mino
+mino_porject
