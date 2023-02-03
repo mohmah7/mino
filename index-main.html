@@ -10,24 +10,29 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(190,230,224);
+  text-align:center;
+  font-size:2.5em;
+  
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+  display:inline-block;
+    padding:14px 16px;
+}
 
 ul.topnav li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {color:gray;}
 
-ul.topnav li a.active {background-color: #04AA6D;}
+ul.topnav li a.active {color:black;}
 
-ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
@@ -36,7 +41,7 @@ ul.topnav li.right {float: right;}
 </style>
 </head>
 <body>
-
+<img src="images/logo.jpg" alt="logo_image" style="width: 300px; height: auto;">
 <ul class="topnav">
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
@@ -45,10 +50,7 @@ ul.topnav li.right {float: right;}
 </ul>
 
 <div style="padding:0 16px;">
-  <h2>Responsive Topnav Example</h2>
-  <p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-  <h4>Resize the browser window to see the effect.</h4>
+  <h2>test page</h2>
 </div>
 
 </body>
